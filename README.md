@@ -30,7 +30,6 @@ Kompleksitas kodingan adalah O((m+n) log n), di mana m adalah jumlah skor yang d
 
 Penjelasan kompleksitas kodingan:
 
-1. Fungsi ini melewati setiap karakter dalam rangkaian input satu per satu dengan menggunakan loop for dari awal hingga akhir rangkaian karakter.
-. Operasi lain dalam fungsi ini, seperti operasi pada tumpukan (stack) atau pencarian elemen dalam array, memiliki kompleksitas waktu konstan.
+1. Fungsi ini melewati setiap karakter dalam rangkaian input satu per satu dengan menggunakan loop for dari awal hingga akhir rangkaian karakter. Operasi lain dalam fungsi ini, seperti operasi pada tumpukan (stack) atau pencarian elemen dalam array, memiliki kompleksitas waktu konstan.
 3. Jumlah operasi yang dilakukan oleh fungsi isBalancedBracket() tergantung pada panjang rangkaian karakter input, yaitu sebanyak n kali (panjang rangkaian karakter).
 4. Oleh karena itu, kompleksitas kodingan untuk fungsi ini adalah O(n), yang berarti waktu yang diperlukan untuk mengeksekusi fungsi ini akan tumbuh sebanding dengan panjang rangkaian karakter inputnya.
